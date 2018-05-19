@@ -39,17 +39,6 @@ CREATE TABLE `members` (
   ENGINE = InnoDB
   DEFAULT CHARSET = latin1;
 
---
--- Dumping data for table `members`
---
-
-INSERT INTO `members` (`id`, `username`, `password`, `dob`, `email`, `contact`) VALUES
-  (1, 'admin', 'admin', '1997/12/29', 'admin@admin.com', '123456789'),
-  (2, 'saurav', 'saurav12', '05/18/2018', 'saurav@gmail.com', '9843500114');
-
--- --------------------------------------------------------
-
---
 -- Table structure for table `user_details`
 --
 
@@ -64,14 +53,6 @@ CREATE TABLE `user_details` (
   ENGINE = InnoDB
   DEFAULT CHARSET = latin1;
 
---
--- Dumping data for table `user_details`
---
-
-INSERT INTO `user_details` (`id`, `username`, `company`, `shares`, `rate`, `total_price`) VALUES
-  (2, 'saurav', 'Deerwalk', 1, 111, 111);
-
---
 -- Indexes for dumped tables
 --
 
